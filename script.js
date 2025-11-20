@@ -1,4 +1,4 @@
-function pick(val) {
+function pick (val){
     if (document.getElementById("result").value) {
         document.getElementById("result").value += val;
     } else {
