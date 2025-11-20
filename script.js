@@ -1,6 +1,6 @@
 function pick(val) {
     if (document.getElementById("result").value) {
-        document.getElementById("result").value += val; // pick the value and write in text input
+        document.getElementById("result").value += val;
     } else {
         document.getElementById("result").value = val;
     }
