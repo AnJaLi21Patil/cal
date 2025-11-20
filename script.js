@@ -6,7 +6,7 @@ function pick(val) {
     }
 }
 
-function solve() {
+function solve(){
     var x = document.getElementById("result").value;
     if (x) {
         var y = eval(x);
