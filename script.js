@@ -16,7 +16,7 @@ function solve() {
     }
 }
 
-function clr() {
+function clr(){
     if (document.getElementById("result").value) {
         document.getElementById("result").value = "";
     } else {
